@@ -1,0 +1,13 @@
+{%- comment -%}
+Starter Lava shape for Tabler vertical nav. Adapt this to your Rock navigation source.
+Expected item fields: Title, Url, IsActive, Children.
+{%- endcomment -%}
+<ul class="navbar-nav">
+{% for item in Items %}
+  <li class="nav-item{% if item.IsActive %} active{% endif %}">
+    <a class="nav-link" href="{{ item.Url }}">
+      <span class="nav-link-title">{{ item.Title }}</span>
+    </a>
+  </li>
+{% endfor %}
+</ul>

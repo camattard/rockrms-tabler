@@ -1,0 +1,12 @@
+:root { --rock-public-brand: var(--tblr-primary, #206bc4); }
+.rock-tabler-theme .navbar-brand-image { max-height: 2.5rem; width: auto; }
+.rock-tabler-theme .page-body { margin-top: 1.25rem; }
+.rock-tabler-theme .rock-content { min-height: 50vh; }
+.rock-tabler-theme .zone-instance.outline { outline: 1px dashed rgba(32,107,196,.35); }
+.rock-tabler-theme .navbar-vertical .block-instance { margin-bottom: .25rem; }
+.rock-tabler-theme .navbar-vertical ul { list-style: none; padding-left: 0; margin: 0; }
+.rock-tabler-theme .navbar-vertical a { color: inherit; text-decoration: none; }
+.rock-tabler-theme .navbar-vertical .nav-link, .rock-tabler-theme .navbar-vertical li > a { display:flex; align-items:center; min-height:2.25rem; padding:.5rem .75rem; border-radius:.375rem; color:rgba(255,255,255,.8); }
+.rock-tabler-theme .navbar-vertical .nav-link:hover, .rock-tabler-theme .navbar-vertical li > a:hover { color:#fff; background:rgba(255,255,255,.08); }
+.layout-homepage .page-body { margin-top: 0; }
+@media (max-width: 991.98px) { .rock-tabler-theme .page-header { margin-top: 1rem; } }
