@@ -1,7 +1,7 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeFile="SiteShell.ascx.cs" Inherits="RockWeb.Themes.TablerPublic.Controls.SiteShell" %>
 
-<link rel="stylesheet" href="/Themes/TablerPublic/Assets/vendor/tabler/tabler.min.css" />
-<link rel="stylesheet" href="/Themes/TablerPublic/Assets/vendor/tabler/tabler-icons.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.4.0/dist/css/tabler.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.34.1/dist/tabler-icons.min.css" />
 <link rel="stylesheet" href="/Themes/TablerPublic/Assets/css/rock-bs3-compat.css" />
 <link rel="stylesheet" href="/Themes/TablerPublic/Assets/css/theme.css" />
 
