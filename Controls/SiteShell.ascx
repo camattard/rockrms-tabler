@@ -78,6 +78,6 @@
     </div>
 </div>
 
-<script src="/Themes/TablerPublic/Assets/vendor/tabler/tabler.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.4.0/dist/js/tabler.min.js"></script>
 <script src="/Themes/TablerPublic/Assets/js/rock-bs3-compat.js"></script>
 <script src="/Themes/TablerPublic/Assets/js/theme.js"></script>
